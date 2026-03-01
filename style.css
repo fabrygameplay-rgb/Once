@@ -121,8 +121,12 @@ footer {
     }
 
     .grid {
-        width: 280px;
-        height: 280px;
+        width: 100%;
+        max-width: 320px;
+        height: 100%;
+        height: 320px;
+        object-fit: cover;
+        overflow: hidden;
     }
 
     #uno p {
@@ -154,8 +158,12 @@ footer {
     }
 
     .grid {
-        width: 260px;
-        height: 260px;
+        width: 100%;
+        max-width: 320px;
+        height: 100%;
+        height: 320px;
+        object-fit: cover;
+        overflow: hidden;
     }
 
     #uno p {
@@ -195,7 +203,9 @@ footer {
 
     .grid {
         width: 100%;
+        max-width: 320px;
         height: 100%;
+        height: 320px;
         object-fit: cover;
         overflow: hidden;
     }
