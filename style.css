@@ -89,9 +89,6 @@ footer {
     margin: 0;
 }
 
-/* ===================================== */
-/*          PANTALLAS GRANDES (4K)       */
-/* ===================================== */
 @media screen and (min-width: 1700px) {
 
     main {
@@ -115,10 +112,6 @@ footer {
     }
 }
 
-
-/* ===================================== */
-/*              LAPTOPS                  */
-/* ===================================== */
 @media screen and (max-width: 1200px) {
 
     #uno {
@@ -142,10 +135,6 @@ footer {
     }
 }
 
-
-/* ===================================== */
-/*              TABLETS                  */
-/* ===================================== */
 @media screen and (max-width: 900px) {
 
     main {
@@ -183,10 +172,6 @@ footer {
     }
 }
 
-
-/* ===================================== */
-/*              MÓVILES                  */
-/* ===================================== */
 @media screen and (max-width: 600px) {
 
     #título {
@@ -209,8 +194,10 @@ footer {
     }
 
     .grid {
-        width: 90%;
-        height: auto;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
     }
 
     #uno p {
