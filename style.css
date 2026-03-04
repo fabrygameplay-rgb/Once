@@ -147,9 +147,10 @@ footer {
     }
 
     #uno {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         margin-left: 0;
         justify-items: center;
+        gap:5px;
     }
 
     #uno p {
