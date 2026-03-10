@@ -90,7 +90,6 @@ footer {
     margin: 0;
     text-align: center;
 }
-
 @media (max-width: 480px) and (orientation: portrait) {
 
     main, #s1 {
@@ -110,13 +109,11 @@ footer {
     #uno img {
         width: 250px;
         height: 220px;
-        margin-left: 10px;
     }
 
     #uno p {
-        width: 250px;
+        width: 100%;
         text-align: left;
-        margin: 0;
         margin-top: 5px;
     }
 
