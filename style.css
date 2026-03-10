@@ -108,13 +108,13 @@ footer {
     }
 
     #uno img {
-        width: 180px;
-        height: 200px;
+        width: 250px;
+        height: 220px;
+        margin-left: 20px;
     }
 
     #uno p {
-        width: 90%;
-        max-width: 100%;
+        width: 250px;
         text-align: left;
         margin: 0;
     }
