@@ -116,8 +116,9 @@ footer {
     }
 
     #uno img {
-        width: 100%;
-        height: 120px;
+        width: 120px;
+        height: 150px;
+        margin-right: 20px;
     }
 
     article ul {
