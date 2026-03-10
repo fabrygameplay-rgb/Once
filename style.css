@@ -106,14 +106,18 @@ footer {
         margin-left: 0;
     }
 
+    div {
+        margin: 10px 0;
+    }
+
     #uno img {
-        width: 250px;
+        max-width: 250px;
         height: 220px;
     }
 
     #uno p {
         width: 100%;
-        text-align: left;
+        text-align: center;
         margin-top: 5px;
     }
 
