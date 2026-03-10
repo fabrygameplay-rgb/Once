@@ -145,7 +145,7 @@ footer {
 @media (max-width: 768px) and (orientation: landscape) { 
     
     main, #s1 {
-        font-size: 12px;
+        font-size: 10px;
         text-align: justify;
     }
 
@@ -162,12 +162,23 @@ footer {
 
     #uno p {
         width: 100%;
-        text-align: center;
+        text-align: left;
         margin-top: 5px;
     }
 
     article ul {
-        font-size: 9px;
+        font-size: 8px;
+    }
+
+    article ul a {
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0;
+        text-align: center;
     }
 }
 
