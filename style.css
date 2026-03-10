@@ -110,13 +110,14 @@ footer {
     #uno img {
         width: 250px;
         height: 220px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     #uno p {
         width: 250px;
         text-align: left;
         margin: 0;
+        margin-top: 5px;
     }
 
     article ul {
