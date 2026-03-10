@@ -142,7 +142,34 @@ footer {
     }
 }
 
-@media (max-width: 768px) and (orientation: landscape) { }
+@media (max-width: 768px) and (orientation: landscape) { 
+    
+    main, #s1 {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #uno {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    #uno img {
+        max-width: 250px;
+        height: 220px;
+    }
+
+    #uno p {
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    article ul {
+        font-size: 9px;
+    }
+}
 
 @media (max-width: 1024px) and (orientation: portrait) { }
 
