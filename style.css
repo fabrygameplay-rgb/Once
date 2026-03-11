@@ -81,10 +81,11 @@ div {
 }
 
 #uno p {
-    width: 320px;
     text-align: center;
     text-transform: capitalize;
-    font-size: 16px;
+    max-width: 100%;
+    font-size: clamp(12px, 2vw, 18px);
+    overflow-wrap: break-word;
 }
 
 .grid {
@@ -115,13 +116,15 @@ footer {
     }
 
     #uno p {
-        max-width: 250px;
+        max-width: 100%;
         text-align: center;
         margin-top: 5px;
         text-transform: capitalize;
         margin-left: 0px;
-        font-size: 10px;
+        font-size: clamp(10px, 2vw, 14px);
+        overflow-wrap: break-word;
     }
+
 }
 
 @media (max-width: 1280px) and (orientation: landscape) {
@@ -139,14 +142,14 @@ footer {
     }
 
     #uno p {
-        max-width: 270px;
+        max-width: 100%;
         text-align: center;
         margin-top: 5px;
         text-transform: capitalize;
         margin-left: 0px;
-        font-size: 9px;
+        font-size: clamp(10px, 2vw, 14px);
+        overflow-wrap: break-word;
     }
-
 }
 
 @media (max-width: 480px) and (orientation: portrait) {
@@ -175,11 +178,12 @@ footer {
     }
 
     #uno p {
-        max-width: 270px;
         text-align: center;
         margin-top: 5px;
         text-transform: capitalize;
-        font-size: 10px;
+        max-width: 100%;
+        font-size: clamp(10px, 4vw, 14px);
+        overflow-wrap: break-word;
     }
 
     article ul {
@@ -218,11 +222,12 @@ footer {
     }
 
     #uno p {
-        width: 100%;
         text-align: center;
         margin-top: 5px;
         text-transform: capitalize;
-        font-size: 10px;
+        max-width: 100%;
+        font-size: clamp(10px, 3vw, 14px);
+        overflow-wrap: break-word;
     }
 
     article ul a {
