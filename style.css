@@ -80,6 +80,7 @@ div {
 #uno p {
     width: 320px;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .grid {
@@ -124,6 +125,7 @@ footer {
         width: 100%;
         text-align: center;
         margin-top: 5px;
+        text-transform: capitalize;
     }
 
     article ul {
@@ -164,16 +166,15 @@ footer {
         width: 100%;
         text-align: left;
         margin-top: 5px;
-    }
-
-    article ul {
-        font-size: 8px;
+        text-transform: capitalize;
     }
 
     article ul a {
+        font-size: 9px;
         overflow-wrap: break-word;
         word-break: break-word;
     }
+    
     article li {
         font-size: 8px;
     }
