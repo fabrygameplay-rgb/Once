@@ -121,11 +121,6 @@ footer {
         font-size: clamp(10px, 2vw, 14px);
         overflow-wrap: break-word;
     }
-
-    body {
-        overflow-x: hidden;
-    }
-
 }
 
 @media (max-width: 1280px) and (orientation: landscape) {
@@ -166,6 +161,7 @@ footer {
         align-items: center;
         width: 100%;
         margin-left: 40px;
+        overflow-x: hidden;
     }
 
     div {
