@@ -161,7 +161,7 @@ footer {
         align-items: center;
         width: 100%;
         margin-left: 40px;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     div {
