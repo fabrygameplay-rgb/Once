@@ -104,8 +104,9 @@ footer {
     }
 
     #uno {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1, 1fr;
+        grid-template-rows: 6, 1fr;
         align-items: center;
         padding: 0 10px;
         width: 100%;
@@ -164,7 +165,7 @@ footer {
 
     #uno p {
         width: 100%;
-        text-align: left;
+        text-align: center;
         margin-top: 5px;
         text-transform: capitalize;
     }
@@ -201,10 +202,22 @@ footer {
 
     #uno p {
         width: 100%;
-        text-align: left;
+        text-align: center;
         margin-top: 5px;
         text-transform: capitalize;
     }
  }
 
-@media (max-width: 1280px) and (orientation: landscape) { }
+@media (max-width: 1280px) and (orientation: landscape) {
+    
+    #uno {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    #uno img {
+        max-width: 250px;
+        height: 220px;
+    }
+ }
