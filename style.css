@@ -115,15 +115,12 @@ footer {
     }
 
     #uno p {
-        width: 100%;
         max-width: 250px;
         text-align: center;
         margin-top: 5px;
         text-transform: capitalize;
         margin-left: 0px;
-        margin-right: 30px;
         font-size: 10px;
-        margin-left: 5px;
     }
 }
 
@@ -142,12 +139,12 @@ footer {
     }
 
     #uno p {
-        width: 100%;
+        max-width: 270px;
         text-align: center;
         margin-top: 5px;
         text-transform: capitalize;
         margin-left: 0px;
-        font-size: 10px;
+        font-size: 9px;
     }
 
 }
@@ -178,12 +175,11 @@ footer {
     }
 
     #uno p {
-        width: 100%;
+        max-width: 270px;
         text-align: center;
         margin-top: 5px;
         text-transform: capitalize;
         font-size: 10px;
-        margin-left: 10px;
     }
 
     article ul {
