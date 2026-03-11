@@ -107,8 +107,7 @@ footer {
     }
 
     #uno {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
         flex-wrap: wrap;
         align-items: center;
         padding: 0 10px;
@@ -158,12 +157,11 @@ footer {
     #uno {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
         flex-wrap: wrap;
     }
 
     #uno img {
-        max-width: 270px;
+        max-width: 260px;
         height: 220px;
     }
 
@@ -206,6 +204,7 @@ footer {
 
     #uno p {
         width: 100%;
+        max-width: 250px;
         text-align: center;
         margin-top: 5px;
         text-transform: capitalize;
@@ -224,6 +223,14 @@ footer {
     #uno img {
         max-width: 250px;
         height: 220px;
+    }
+
+    #uno p {
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+        text-transform: capitalize;
+        margin-left: 0px;
     }
 
  }
