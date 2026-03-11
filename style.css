@@ -103,6 +103,7 @@ footer {
 
     #uno {
         display: grid;
+        gap: 5px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
@@ -120,6 +121,7 @@ footer {
         text-transform: capitalize;
         margin-left: 0px;
         margin-right: 30px;
+        font-size: 9px;
     }
 }
 
@@ -127,12 +129,13 @@ footer {
     
     #uno {
         display: grid;
+        gap: 5px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
 
     #uno img {
-        max-width: 250px;
+        max-width: 270px;
         height: 220px;
     }
 
@@ -142,9 +145,10 @@ footer {
         margin-top: 5px;
         text-transform: capitalize;
         margin-left: 0px;
+        font-size: 9px;
     }
 
- }
+}
 
 @media (max-width: 480px) and (orientation: portrait) {
 
@@ -163,7 +167,7 @@ footer {
     }
 
     div {
-        margin: 10px 0;
+        margin: 5px 0;
     }
 
     #uno img {
@@ -203,13 +207,14 @@ footer {
 
     #uno {
         display: grid;
+        gap: 5px;
         grid-template-columns: repeat(2, 1fr);
         flex-wrap: wrap;
     }
 
     #uno img {
-        max-width: 260px;
-        height: 220px;
+        max-width: 270px;
+        height: 230px;
     }
 
     #uno p {
