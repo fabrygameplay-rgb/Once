@@ -74,6 +74,7 @@ div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    padding-left: 20px;
 }
 
 #uno p {
@@ -157,7 +158,6 @@ footer {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        padding: 0 10px;
         width: 100%;
         margin-left: 0;
     }
