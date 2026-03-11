@@ -76,10 +76,6 @@ div {
     gap: 30px;
 }
 
-#uno img {
-    margin-left: 30px;
-}
-
 #uno p {
     text-align: center;
     text-transform: capitalize;
@@ -89,7 +85,6 @@ div {
 }
 
 .grid {
-    margin-left: 30px;
     width: 320px;
     height: 320px;
     display: block;
@@ -121,7 +116,6 @@ footer {
         text-align: center;
         margin-top: 5px;
         text-transform: capitalize;
-        margin-left: 0px;
         font-size: clamp(10px, 2vw, 14px);
         overflow-wrap: break-word;
     }
@@ -147,7 +141,6 @@ footer {
         text-align: center;
         margin-top: 5px;
         text-transform: capitalize;
-        margin-left: 0px;
         font-size: clamp(8px, 2vw, 14px);
         overflow-wrap: break-word;
     }
